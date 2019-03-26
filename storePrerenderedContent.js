@@ -122,9 +122,7 @@ function log(message, ...args) {
   console.log(`[storePrerenderedContent] ${message}`, ...args);
 }
 
-function logStoreResult(message, ...args) {
-  console.log(`  📥 [storeResult] ${message}`, ...args);
-}
+function logStoreResult(message, ...args) {}
 
 // Netlify does normalize urls automatically.
 // An Url, that contains upper case characters is automatically converted to lower case.

@@ -126,6 +126,7 @@ function webpackConfig(env = {}) {
       extensions: [".js"],
       modules: ["node_modules"],
     },
+    stats: "errors-only",
     devServer: {
       port: 8080,
       stats: "minimal",
